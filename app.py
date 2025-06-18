@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 
 # Constants
-DB_PATH = "knowledge_base.db"
+DB_PATH = "data.db"
 SIMILARITY_THRESHOLD = 0.50 # Lowered threshold for better recall
 MAX_RESULTS = 10  # Increased to get more context
 load_dotenv()
