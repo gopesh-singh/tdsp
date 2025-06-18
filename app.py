@@ -698,7 +698,7 @@ async def query_knowledge_base(request: QueryRequest):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the TDS's Virtual TA! Use POST /query to ask questions."}
+    return {"message": "Welcome to the TDS TA!"}
 
 
 # Health check endpoint
